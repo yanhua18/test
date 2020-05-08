@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import os
 driver=webdriver.Firefox()
-file_path='file:///'+os.path.abspath('html_file/frame.html')
+file_path='file:///'+os.path.abspath('../html_file/frame.html')
 driver.get(file_path)
 driver.implicitly_wait(30)
 driver.switch_to.frame("f1")

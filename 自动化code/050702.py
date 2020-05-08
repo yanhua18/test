@@ -2,7 +2,7 @@ from selenium import webdriver
 import os,time
 
 driver=webdriver.Chrome()
-file_path='file:///'+os.path.abspath('html_file/modal.html')
+file_path='file:///'+os.path.abspath('../html_file/modal.html')
 driver.get(file_path)
 
 driver.find_element_by_xpath('//*[@id="show_modal"]').click()

@@ -5,7 +5,7 @@ import os
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver=webdriver.Firefox()
-file_path='file:///'+os.path.abspath('html_file/level_locate.html')
+file_path='file:///'+os.path.abspath('../html_file/level_locate.html')
 driver.get(file_path)
 
 driver.find_element_by_link_text('Link1').click()

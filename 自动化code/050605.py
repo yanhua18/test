@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time,os
 driver=webdriver.Firefox()
-file_path='file:///'+os.path.abspath('html_file/drop_down.html')
+file_path='file:///'+os.path.abspath('../html_file/drop_down.html')
 driver.get(file_path)
 time.sleep(3)
 m=driver.find_element_by_id("ShippingMethod")

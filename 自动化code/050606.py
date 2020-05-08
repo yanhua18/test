@@ -3,7 +3,7 @@ import time, os
 from time import sleep
 
 driver = webdriver.Firefox()
-file_path = 'file:///' + os.path.abspath('html_file/alert.html')
+file_path = 'file:///' + os.path.abspath('../html_file/alert.html')
 driver.get(file_path)
 time.sleep(3)
 
